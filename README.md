@@ -23,7 +23,6 @@
 - `Form1.cs`: Tela de login com verificação no banco;
 - `princial.cs`: Tela principal para consultas;
 - `bateria2.db`: Base de dados SQLite com veículos e especificações de bateria;
-- `dataGridViewbat`: Exibe os resultados da busca.
 
 ---
 
@@ -43,6 +42,12 @@
 - **Visual Studio**
 - **Inno Setup** (*para a criação do instalador*)
 - **SQLiteStudio** (*para edição do banco de dados*)
+
+---
+
+## 🏪 Inspiração e contexto
+
+Este sistema foi desenvolvido para uso prático na loja onde atuo, com o objetivo de agilizar o atendimento e facilitar a consulta de especificações de baterias automotivas para clientes e equipe técnica.
 
 ---
 
