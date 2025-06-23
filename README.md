@@ -24,7 +24,7 @@
 ![Tela de Login](docs/telalogin.png)
 
 ### Consulta de Bateria  
-<img src="docs/consulta.png" alt="Consulta de Bateria" width="400"/>
+<img src="docs/consulta.png" alt="Consulta de Bateria" width="800"/>
 
 ### Exemplo de pesquisa
 ![Resultado de pesquisa](docs/procurou.png)
