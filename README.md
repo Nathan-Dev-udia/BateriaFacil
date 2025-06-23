@@ -21,16 +21,16 @@
 ## 📸 Demonstração
 
 ### Tela de Login  
-![Tela de Login](docs/telalogin.png)
+<img src="docs/telalogin.png" alt="Tela de Login" width="650"/>
 
 ### Consulta de Bateria  
 <img src="docs/consulta.png" alt="Consulta de Bateria" width="650"/>
 
 ### Exemplo de pesquisa
-![Resultado de pesquisa](docs/procurou.png)
+<img src="docs/procurou.png" alt="Exemplo de pesquisa" width="650"/>
 
 ### Segundo exemplo de pesquisa
-![Resultado de pesquisa](docs/consulta2.png)
+<img src="docs/consulta2.png" alt="Segundo exemplo de pesquisa" width="650"/>
 
 ---
 
