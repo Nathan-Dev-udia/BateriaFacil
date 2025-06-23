@@ -18,6 +18,22 @@
 
 ---
 
+## 📸 Demonstração
+
+### Tela de Login  
+![Tela de Login](docs/telalogin.png)
+
+### Consulta de Bateria  
+![Consulta de Bateria](docs/consulta.png)
+
+### Exemplo de pesquisa
+![Resultado de pesquisa](docs/procurou.png)
+
+### Segundo exemplo de pesquisa
+![Resultado de pesquisa](docs/consulta2.png)
+
+---
+
 ## 📁 Estrutura do Projeto
 
 - `Form1.cs`: Tela de login com verificação no banco;
