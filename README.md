@@ -1,4 +1,6 @@
 # 🔋 BateriaFacil
+![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=c-sharp&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 
 **BateriaFacil** é uma aplicação desktop desenvolvida em **C# (Windows Forms)** que ajuda a identificar rapidamente **qual bateria usar em determinado modelo de veículo**. Com um banco de dados local em **SQLite**, a ferramenta realiza consultas instantâneas a partir do nome do carro, exibindo informações como **marca, ano, amperagem, CCA** e o **lado da bateria**.
 
