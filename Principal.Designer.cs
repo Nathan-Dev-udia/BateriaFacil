@@ -1,6 +1,6 @@
 ﻿namespace baterias
 {
-    partial class princial
+    partial class Principal
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(princial));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Principal));
             this.dataGridViewbat = new System.Windows.Forms.DataGridView();
             this.txtBat = new Guna.UI2.WinForms.Guna2TextBox();
             this.btnpesquisa = new Guna.UI2.WinForms.Guna2Button();
@@ -42,7 +42,6 @@
             this.dataGridViewbat.Name = "dataGridViewbat";
             this.dataGridViewbat.Size = new System.Drawing.Size(637, 225);
             this.dataGridViewbat.TabIndex = 2;
-            this.dataGridViewbat.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewbat_CellContentClick);
             // 
             // txtBat
             // 
@@ -89,7 +88,7 @@
             this.btnpesquisa.Text = "Pesquisar";
             this.btnpesquisa.Click += new System.EventHandler(this.btnpesquisa_Click);
             // 
-            // princial
+            // Princial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;

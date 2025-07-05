@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SQLite;
+using baterias.Repositories;
+using System.Data.SqlClient;
 
 namespace baterias
 {
@@ -33,53 +35,34 @@ namespace baterias
         // Evento para o botão de login
         private void btnlogin_Click(object sender, EventArgs e)
         {
-            // Caminho para o banco de dados SQLite
-            string dbPath = System.IO.Path.Combine(Application.StartupPath, "bateria2.db");
-            string connectionString = $"Data Source={dbPath};Version=3;";
-
             // Obter o nome de usuário e a senha inseridos
             string usuario = txtUser.Text;
             string senha = txtPass.Text;
 
-            // Verificar as credenciais no banco de dados
-            using (SQLiteConnection conn = new SQLiteConnection(connectionString))
+            UserRepository userRepository = new UserRepository();
+
+            try
             {
-                try
+
+                bool isLoginSuccessful = userRepository.Login(usuario, senha);
+
+                if (isLoginSuccessful)
                 {
-                    conn.Open();
-
-                    // Consultar o banco de dados para verificar o usuário e a senha
-                    string query = "SELECT COUNT(*) FROM usuarios WHERE nome = @usuario AND senha = @senha";
-                    using (SQLiteCommand cmd = new SQLiteCommand(query, conn))
-                    {
-                        // Passar os parâmetros para evitar SQL Injection
-                        cmd.Parameters.AddWithValue("@usuario", usuario);
-                        cmd.Parameters.AddWithValue("@senha", senha);
-
-                        int result = Convert.ToInt32(cmd.ExecuteScalar());
-
-                        // Se a contagem for maior que zero, login é bem-sucedido
-                        if (result > 0)
-                        {
-                            MessageBox.Show("Login bem-sucedido!");
-
-                            // Esconde o formulário de login
-                            this.Hide();
-
-                            // Abre o formulário principal
-                            princial principalForm = new princial();
-                            principalForm.Show();
-                        }
-                        else
-                        {
-                            MessageBox.Show("Usuário ou senha inválidos.");
-                        }
-                    }
+                    MessageBox.Show("Login bem-sucedido!");
+                    Hide();
+                    Principal principalForm = new Principal();
+                    principalForm.Show();
                 }
-                catch (Exception ex)
+                else
                 {
-                    MessageBox.Show($"Erro ao conectar com o banco de dados: {ex.Message}");
+                    MessageBox.Show("Usuário ou senha inválidos ou erro ao conectar com o banco de dados.", "Aviso",
+                        MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
+            }
+
+            catch (SqlException ex)
+            {
+                MessageBox.Show(ex.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }
