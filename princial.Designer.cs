@@ -41,7 +41,7 @@
             this.dataGridViewbat.Location = new System.Drawing.Point(63, 164);
             this.dataGridViewbat.Name = "dataGridViewbat";
             this.dataGridViewbat.Size = new System.Drawing.Size(637, 225);
-            this.dataGridViewbat.TabIndex = 0;
+            this.dataGridViewbat.TabIndex = 2;
             this.dataGridViewbat.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewbat_CellContentClick);
             // 
             // txtBat
@@ -68,13 +68,14 @@
             this.txtBat.SelectedText = "";
             this.txtBat.ShadowDecoration.Parent = this.txtBat;
             this.txtBat.Size = new System.Drawing.Size(501, 39);
-            this.txtBat.TabIndex = 2;
+            this.txtBat.TabIndex = 0;
             this.txtBat.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtBat_KeyDown);
             // 
             // btnpesquisa
             // 
             this.btnpesquisa.BorderRadius = 15;
             this.btnpesquisa.CheckedState.Parent = this.btnpesquisa;
+            this.btnpesquisa.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnpesquisa.CustomImages.Parent = this.btnpesquisa;
             this.btnpesquisa.FillColor = System.Drawing.Color.Red;
             this.btnpesquisa.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -84,7 +85,7 @@
             this.btnpesquisa.Name = "btnpesquisa";
             this.btnpesquisa.ShadowDecoration.Parent = this.btnpesquisa;
             this.btnpesquisa.Size = new System.Drawing.Size(105, 39);
-            this.btnpesquisa.TabIndex = 6;
+            this.btnpesquisa.TabIndex = 1;
             this.btnpesquisa.Text = "Pesquisar";
             this.btnpesquisa.Click += new System.EventHandler(this.btnpesquisa_Click);
             // 
