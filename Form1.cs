@@ -48,7 +48,7 @@ namespace baterias
 
                 if (isLoginSuccessful)
                 {
-                    MessageBox.Show("Login bem-sucedido!");
+                    MessageBox.Show("Login bem-sucedido!", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     Hide();
                     Principal principalForm = new Principal();
                     principalForm.Show();

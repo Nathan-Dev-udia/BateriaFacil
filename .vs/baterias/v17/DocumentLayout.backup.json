@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\VisualStudioProjects\\BateriaFacil\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{41C6F161-2FDF-4ED0-99A6-8707820FB351}|baterias.csproj|d:\\visualstudioprojects\\bateriafacil\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41C6F161-2FDF-4ED0-99A6-8707820FB351}|baterias.csproj|solutionrelative:repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{41C6F161-2FDF-4ED0-99A6-8707820FB351}|baterias.csproj|d:\\visualstudioprojects\\bateriafacil\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41C6F161-2FDF-4ED0-99A6-8707820FB351}|baterias.csproj|solutionrelative:principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41C6F161-2FDF-4ED0-99A6-8707820FB351}|baterias.csproj|d:\\visualstudioprojects\\bateriafacil\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41C6F161-2FDF-4ED0-99A6-8707820FB351}|baterias.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41C6F161-2FDF-4ED0-99A6-8707820FB351}|baterias.csproj|d:\\visualstudioprojects\\bateriafacil\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41C6F161-2FDF-4ED0-99A6-8707820FB351}|baterias.csproj|solutionrelative:repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41C6F161-2FDF-4ED0-99A6-8707820FB351}|baterias.csproj|d:\\visualstudioprojects\\bateriafacil\\repositories\\searchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Principal.cs",
               "DocumentMoniker": "D:\\VisualStudioProjects\\BateriaFacil\\Principal.cs",
               "RelativeDocumentMoniker": "Principal.cs",
@@ -44,13 +44,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "D:\\VisualStudioProjects\\BateriaFacil\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
               "ToolTip": "D:\\VisualStudioProjects\\BateriaFacil\\Repositories\\UserRepository.cs",
               "RelativeToolTip": "Repositories\\UserRepository.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAiwCkAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-05T22:45:27.782Z",
               "IsPinned": true,
@@ -62,7 +62,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\VisualStudioProjects\\BateriaFacil\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
