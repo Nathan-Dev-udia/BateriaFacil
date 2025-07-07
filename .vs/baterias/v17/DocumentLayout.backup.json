@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\PRO\\newb\\baterias\\",
+  "WorkspaceRootPath": "D:\\VisualStudioProjects\\BateriaFacil\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{41C6F161-2FDF-4ED0-99A6-8707820FB351}|baterias.csproj|C:\\PRO\\newb\\baterias\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{41C6F161-2FDF-4ED0-99A6-8707820FB351}|baterias.csproj|d:\\visualstudioprojects\\bateriafacil\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41C6F161-2FDF-4ED0-99A6-8707820FB351}|baterias.csproj|solutionrelative:repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41C6F161-2FDF-4ED0-99A6-8707820FB351}|baterias.csproj|d:\\visualstudioprojects\\bateriafacil\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41C6F161-2FDF-4ED0-99A6-8707820FB351}|baterias.csproj|solutionrelative:principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41C6F161-2FDF-4ED0-99A6-8707820FB351}|baterias.csproj|d:\\visualstudioprojects\\bateriafacil\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41C6F161-2FDF-4ED0-99A6-8707820FB351}|baterias.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41C6F161-2FDF-4ED0-99A6-8707820FB351}|baterias.csproj|c:\\pro\\newb\\baterias\\princial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41C6F161-2FDF-4ED0-99A6-8707820FB351}|baterias.csproj|solutionrelative:princial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41C6F161-2FDF-4ED0-99A6-8707820FB351}|baterias.csproj|C:\\PRO\\newb\\baterias\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{41C6F161-2FDF-4ED0-99A6-8707820FB351}|baterias.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41C6F161-2FDF-4ED0-99A6-8707820FB351}|baterias.csproj|C:\\PRO\\newb\\baterias\\princial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{41C6F161-2FDF-4ED0-99A6-8707820FB351}|baterias.csproj|solutionrelative:princial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{41C6F161-2FDF-4ED0-99A6-8707820FB351}|baterias.csproj|d:\\visualstudioprojects\\bateriafacil\\repositories\\searchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41C6F161-2FDF-4ED0-99A6-8707820FB351}|baterias.csproj|solutionrelative:repositories\\searchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,69 +26,65 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Principal.cs",
+              "DocumentMoniker": "D:\\VisualStudioProjects\\BateriaFacil\\Principal.cs",
+              "RelativeDocumentMoniker": "Principal.cs",
+              "ToolTip": "D:\\VisualStudioProjects\\BateriaFacil\\Principal.cs",
+              "RelativeToolTip": "Principal.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAADgvzkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T21:52:31.975Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\VisualStudioProjects\\BateriaFacil\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\VisualStudioProjects\\BateriaFacil\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T22:45:27.782Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "princial.cs",
-              "DocumentMoniker": "C:\\PRO\\newb\\baterias\\princial.cs",
-              "RelativeDocumentMoniker": "princial.cs",
-              "ToolTip": "C:\\PRO\\newb\\baterias\\princial.cs",
-              "RelativeToolTip": "princial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T19:03:08.089Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\PRO\\newb\\baterias\\Form1.cs",
+              "DocumentMoniker": "D:\\VisualStudioProjects\\BateriaFacil\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\PRO\\newb\\baterias\\Form1.cs",
+              "ToolTip": "D:\\VisualStudioProjects\\BateriaFacil\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAiwEAAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T18:52:39.238Z",
+              "WhenOpened": "2025-07-05T22:45:27.767Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "princial.cs [Design]",
-              "DocumentMoniker": "C:\\PRO\\newb\\baterias\\princial.cs",
-              "RelativeDocumentMoniker": "princial.cs",
-              "ToolTip": "C:\\PRO\\newb\\baterias\\princial.cs [Design]",
-              "RelativeToolTip": "princial.cs [Design]",
+              "Title": "SearchRepository.cs",
+              "DocumentMoniker": "D:\\VisualStudioProjects\\BateriaFacil\\Repositories\\SearchRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\SearchRepository.cs",
+              "ToolTip": "D:\\VisualStudioProjects\\BateriaFacil\\Repositories\\SearchRepository.cs",
+              "RelativeToolTip": "Repositories\\SearchRepository.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwCYAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T14:04:41.396Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\PRO\\newb\\baterias\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\PRO\\newb\\baterias\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T12:39:10.002Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-07-05T22:21:29.517Z",
+              "EditorCaption": ""
             }
           ]
         }

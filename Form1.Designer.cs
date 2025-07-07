@@ -48,6 +48,7 @@
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
             this.guna2HtmlLabel1.Size = new System.Drawing.Size(89, 42);
             this.guna2HtmlLabel1.TabIndex = 0;
+            this.guna2HtmlLabel1.TabStop = false;
             this.guna2HtmlLabel1.Text = "Login";
             // 
             // txtUser
@@ -74,7 +75,7 @@
             this.txtUser.SelectedText = "";
             this.txtUser.ShadowDecoration.Parent = this.txtUser;
             this.txtUser.Size = new System.Drawing.Size(328, 39);
-            this.txtUser.TabIndex = 1;
+            this.txtUser.TabIndex = 0;
             this.txtUser.TextChanged += new System.EventHandler(this.txtUser_TextChanged);
             // 
             // guna2HtmlLabel2
@@ -103,6 +104,7 @@
             // 
             this.btnlogin.BorderRadius = 15;
             this.btnlogin.CheckedState.Parent = this.btnlogin;
+            this.btnlogin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnlogin.CustomImages.Parent = this.btnlogin;
             this.btnlogin.FillColor = System.Drawing.Color.Red;
             this.btnlogin.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -112,12 +114,13 @@
             this.btnlogin.Name = "btnlogin";
             this.btnlogin.ShadowDecoration.Parent = this.btnlogin;
             this.btnlogin.Size = new System.Drawing.Size(180, 45);
-            this.btnlogin.TabIndex = 5;
+            this.btnlogin.TabIndex = 2;
             this.btnlogin.Text = "Entrar";
             this.btnlogin.Click += new System.EventHandler(this.btnlogin_Click);
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(38, 12);
             this.pictureBox1.Name = "pictureBox1";
@@ -145,12 +148,12 @@
             this.txtPass.Location = new System.Drawing.Point(186, 230);
             this.txtPass.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtPass.Name = "txtPass";
-            this.txtPass.PasswordChar = '\0';
+            this.txtPass.PasswordChar = '*';
             this.txtPass.PlaceholderText = "";
             this.txtPass.SelectedText = "";
             this.txtPass.ShadowDecoration.Parent = this.txtPass;
             this.txtPass.Size = new System.Drawing.Size(328, 39);
-            this.txtPass.TabIndex = 7;
+            this.txtPass.TabIndex = 1;
             this.txtPass.TextChanged += new System.EventHandler(this.txtPass_TextChanged);
             // 
             // Form1
